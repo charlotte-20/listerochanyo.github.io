@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>CHARLOTTE</h1>
+    <P>she's a beautiful girl, always minding her business. <br>Though she's a lastborn but has never been treated as one, always working hard ,always surviving</P>
+    <p>surving from school to salaried job  back to school now heading to self employment and contacts</p>
+    <h>that's me<i>Charlotte</i></h>
+    <a href="https://google.com">Go to Google</a>
+
+    <meta charse="UTF-8">
+    <title>CSS Heart</title>
+    <style>
+      body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #111;
+        }
+
+        heart{
+            position: relative;
+            width: 100px;
+            height: 90px;
+            transform: rotate(-45deg);
+            background: red;
+        }
+
+        .heart::before,
+        .heart::after{
+            content: "";
+            position: absolute;
+            width: 100px;
+            height: 90px;
+            background: red;
+            border-radius: 50%;
+        }
+
+         .heart::before{
+            top: -50px;
+            left: 0;
+         }
+
+         .heart::after{
+            top: 0;
+            left: 50px;
+         }
+         </style>
+        </head>
+        <body>
+
+        <div class="heart"></div>
+         
+</body>
+</html>
